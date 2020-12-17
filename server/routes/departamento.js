@@ -67,7 +67,7 @@ app.put('/departamento/:id', function(req, res){
             if(err){
                 return res.status(400).json({
                     ok:false,
-                    msg: 'Hubo un error en la consulta.',
+                    msg: 'Hubo un error en su consulta.',
                     err
                 })
             }
