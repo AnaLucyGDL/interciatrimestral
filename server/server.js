@@ -27,6 +27,6 @@ mongoose.connect('mongodb://localhost:27017/Tienda',{
 });
 
 app.listen(process.env.PORT,() => {
-    console.log('El servidor esta en linea por el puerto ', process.env.PORT )
+    console.log('El servidor esta en linea por el puerto...', process.env.PORT )
 })
 
